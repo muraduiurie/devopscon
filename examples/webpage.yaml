@@ -1,0 +1,9 @@
+apiVersion: devopscon.web.io/v1
+kind: WebPage
+metadata:
+  name: test-webpage
+  namespace: default
+spec:
+  image: nginx
+  content: this is a test
+  replicas: 1
